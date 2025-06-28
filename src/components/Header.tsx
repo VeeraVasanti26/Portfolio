@@ -39,6 +39,8 @@ const Header = () => {
     document.body.removeChild(link);
   };
 
+  const emailLink = `https://mail.google.com/mail/?view=cm&fs=1&to=vasantigoli2005@gmail.com&su=Regarding%20Your%20Portfolio&body=Hi%20Vasanti%2C%0D%0AI%20came%20across%20your%20portfolio%20and%20wanted%20to%20connect.`;
+
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled ? 'bg-white/90 backdrop-blur-md shadow-lg' : 'bg-transparent'
@@ -51,29 +53,52 @@ const Header = () => {
             }`}>
               Vasanti Goli
             </h1>
+
             <div className="hidden sm:flex items-center space-x-4">
-              <a href="mailto:vasantigoli2005@gmail.com" 
-                 className={`p-2 rounded-full transition-colors duration-300 hover:bg-blue-600 hover:text-white ${
-                   isScrolled ? 'text-gray-600 hover:text-white' : 'text-white/80 hover:text-white'
-                 }`}>
-                <Mail size={16} />
-              </a>
-              <a href="tel:+919951980767" 
-                 className={`p-2 rounded-full transition-colors duration-300 hover:bg-blue-600 hover:text-white ${
-                   isScrolled ? 'text-gray-600 hover:text-white' : 'text-white/80 hover:text-white'
-                 }`}>
+             <a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=vasantigoli2005@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className={`p-2 rounded-full transition-colors duration-300 hover:bg-blue-600 hover:text-white ${
+    isScrolled ? 'text-gray-600 hover:text-white' : 'text-white/80 hover:text-white'
+  }`}
+  title="Send Email"
+>
+  <Mail size={16} />
+</a>
+
+
+              <a
+                href="tel:+919951980767"
+                className={`p-2 rounded-full transition-colors duration-300 hover:bg-blue-600 hover:text-white ${
+                  isScrolled ? 'text-gray-600 hover:text-white' : 'text-white/80 hover:text-white'
+                }`}
+                title="Call"
+              >
                 <Phone size={16} />
               </a>
-              <a href="https://www.linkedin.com/in/vasanti-goli-348658259/" target="_blank" rel="noopener noreferrer"
-                 className={`p-2 rounded-full transition-colors duration-300 hover:bg-blue-600 hover:text-white ${
-                   isScrolled ? 'text-gray-600 hover:text-white' : 'text-white/80 hover:text-white'
-                 }`}>
+
+              <a
+                href="https://www.linkedin.com/in/vasanti-goli-348658259/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`p-2 rounded-full transition-colors duration-300 hover:bg-blue-600 hover:text-white ${
+                  isScrolled ? 'text-gray-600 hover:text-white' : 'text-white/80 hover:text-white'
+                }`}
+                title="LinkedIn"
+              >
                 <Linkedin size={16} />
               </a>
-              <a href="https://github.com/VeeraVasanti26?tab=repositories" target="_blank" rel="noopener noreferrer"
-                 className={`p-2 rounded-full transition-colors duration-300 hover:bg-blue-600 hover:text-white ${
-                   isScrolled ? 'text-gray-600 hover:text-white' : 'text-white/80 hover:text-white'
-                 }`}>
+
+              <a
+                href="https://github.com/VeeraVasanti26?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`p-2 rounded-full transition-colors duration-300 hover:bg-blue-600 hover:text-white ${
+                  isScrolled ? 'text-gray-600 hover:text-white' : 'text-white/80 hover:text-white'
+                }`}
+                title="GitHub"
+              >
                 <Github size={16} />
               </a>
             </div>
@@ -97,8 +122,8 @@ const Header = () => {
             <button
               onClick={downloadResume}
               className={`hidden md:flex items-center space-x-2 px-4 py-2 rounded-lg font-medium transition-all duration-300 ${
-                isScrolled 
-                  ? 'bg-blue-600 text-white hover:bg-blue-700' 
+                isScrolled
+                  ? 'bg-blue-600 text-white hover:bg-blue-700'
                   : 'bg-white/20 text-white hover:bg-white/30 backdrop-blur-sm'
               }`}
             >
