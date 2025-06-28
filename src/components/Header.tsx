@@ -32,7 +32,7 @@ const Header = () => {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Vasanti_Resume_SDE_Intern.pdf';
+    link.href = '/Vasanti_Resume_Internships.pdf';
     link.download = 'Vasanti_Goli_Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -64,13 +64,13 @@ const Header = () => {
                  }`}>
                 <Phone size={16} />
               </a>
-              <a href="https://linkedin.com/in/vasanti-goli" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/vasanti-goli-348658259/" target="_blank" rel="noopener noreferrer"
                  className={`p-2 rounded-full transition-colors duration-300 hover:bg-blue-600 hover:text-white ${
                    isScrolled ? 'text-gray-600 hover:text-white' : 'text-white/80 hover:text-white'
                  }`}>
                 <Linkedin size={16} />
               </a>
-              <a href="https://github.com/vasanti-goli" target="_blank" rel="noopener noreferrer"
+              <a href="https://github.com/VeeraVasanti26?tab=repositories" target="_blank" rel="noopener noreferrer"
                  className={`p-2 rounded-full transition-colors duration-300 hover:bg-blue-600 hover:text-white ${
                    isScrolled ? 'text-gray-600 hover:text-white' : 'text-white/80 hover:text-white'
                  }`}>

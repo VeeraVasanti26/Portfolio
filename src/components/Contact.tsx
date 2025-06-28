@@ -51,13 +51,13 @@ const Contact = () => {
     {
       icon: <Linkedin className="text-blue-600" size={24} />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/vasanti-goli",
+      href: "https://www.linkedin.com/in/vasanti-goli-348658259/",
       color: "hover:bg-blue-50"
     },
     {
       icon: <Github className="text-gray-900" size={24} />,
       label: "GitHub",
-      href: "https://github.com/vasanti-goli",
+      href: "https://github.com/VeeraVasanti26?tab=repositories",
       color: "hover:bg-gray-50"
     }
   ];
@@ -68,9 +68,7 @@ const Contact = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Let's discuss opportunities, collaborations, or just connect!
-          </p>
+          
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -123,7 +121,7 @@ const Contact = () => {
               <h4 className="text-lg font-semibold text-gray-900 mb-2">Open to Opportunities</h4>
               <p className="text-gray-700">
                 I'm actively seeking internship and entry-level opportunities in software development, 
-                web development, and AI/ML. Feel free to reach out for collaborations or discussions!
+                web development, and AI/ML.
               </p>
             </div>
           </div>

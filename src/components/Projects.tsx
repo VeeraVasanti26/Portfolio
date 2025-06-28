@@ -18,8 +18,7 @@ const Projects = () => {
       year: "2025",
       description: "Built a responsive, interactive portfolio website to showcase personal projects and skills using modern web technologies.",
       techStack: ["HTML", "CSS", "JavaScript", "React"],
-      githubUrl: "https://github.com/vasanti-goli/portfolio",
-      liveUrl: "#",
+      githubUrl: "https://github.com/VeeraVasanti26/Portfolio",
       category: "Web Development",
       status: "Completed"
     },
@@ -29,7 +28,6 @@ const Projects = () => {
       year: "2024",
       description: "Implemented a character-level Seq2Seq model with LSTM and Transformer support for English-to-Sanskrit translation using dynamic encoder-decoder architecture.",
       techStack: ["Python", "LSTM", "Transformers", "NLP"],
-      githubUrl: "https://github.com/vasanti-goli/english-sanskrit-translation",
       category: "AI/ML",
       status: "Completed"
     },
@@ -39,8 +37,8 @@ const Projects = () => {
       year: "2024",
       description: "Developed a classic Tic Tac Toe game with interactive UI and win-condition logic using React.",
       techStack: ["HTML", "CSS", "JavaScript", "React"],
-      githubUrl: "https://github.com/vasanti-goli/tic-tac-toe",
-      liveUrl: "https://vasanti-goli.github.io/tic-tac-toe",
+      githubUrl: "https://github.com/VeeraVasanti26/Tic-Tac-Toe",
+      liveUrl: "https://tic-tac-toe-jvui.vercel.app/",
       category: "Web Development",
       status: "Completed"
     },
@@ -50,8 +48,7 @@ const Projects = () => {
       year: "2024",
       description: "Created a responsive music player inspired by Spotify with custom audio controls and playlist functionality.",
       techStack: ["HTML", "CSS", "JavaScript"],
-      githubUrl: "https://github.com/vasanti-goli/music-player",
-      liveUrl: "https://vasanti-goli.github.io/music-player",
+      githubUrl: "https://github.com/VeeraVasanti26/Music-Player",
       category: "Web Development",
       status: "Completed"
     },
@@ -61,8 +58,8 @@ const Projects = () => {
       year: "2024",
       description: "Built a task management app with interactive features to add, update, and remove tasks dynamically.",
       techStack: ["HTML", "CSS", "JavaScript", "React"],
-      githubUrl: "https://github.com/vasanti-goli/todo-list",
-      liveUrl: "https://vasanti-goli.github.io/todo-list",
+      githubUrl: "https://github.com/VeeraVasanti26/TodoList",
+      liveUrl: "https://tic-tac-toe-h6g7.vercel.app/",
       category: "Web Development",
       status: "Completed"
     }
@@ -82,9 +79,6 @@ const Projects = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6"></div>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A showcase of innovative solutions and technical implementations
-          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
