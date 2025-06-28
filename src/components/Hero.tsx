@@ -9,14 +9,6 @@ const Hero = () => {
     }
   };
 
-  const downloadResume = () => {
-    const link = document.createElement('a');
-    link.href = '/Vasanti_Resume_SDE_Intern.pdf';
-    link.download = 'Vasanti_Goli_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
 
   return (
     <section className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-blue-600 via-purple-600 to-teal-600">
