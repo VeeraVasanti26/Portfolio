@@ -39,13 +39,6 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button
-              onClick={downloadResume}
-              className="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center gap-2"
-            >
-              <Download size={18} />
-              Download Resume
-            </button>
             
             <button
               onClick={scrollToAbout}
