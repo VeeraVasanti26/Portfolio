@@ -7,7 +7,7 @@ const Education = () => {
       degree: "Bachelor of Technology in Computer Science and Engineering",
       institution: "Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada",
       duration: "Oct 2022 - May 2026*",
-      cgpa: "9.24",
+      cgpa: "9.28",
       status: "Pursuing",
       color: "blue"
     },
