@@ -12,16 +12,7 @@ const Projects = () => {
       category: "AI/ML",
       status: "In Progress"
     },
-    {
-      title: "Portfolio Website",
-      type: "Independent Project",
-      year: "2025",
-      description: "Built a responsive, interactive portfolio website to showcase personal projects and skills using modern web technologies.",
-      techStack: ["HTML", "CSS", "JavaScript", "React"],
-      githubUrl: "https://github.com/VeeraVasanti26/Portfolio",
-      category: "Web Development",
-      status: "Completed"
-    },
+    
     {
       title: "English-to-Sanskrit Translation",
       type: "EPICS Project",
@@ -39,6 +30,16 @@ const Projects = () => {
       techStack: ["HTML", "CSS", "JavaScript", "React"],
       githubUrl: "https://github.com/VeeraVasanti26/Tic-Tac-Toe",
       liveUrl: "https://tic-tac-toe-jvui.vercel.app/",
+      category: "Web Development",
+      status: "Completed"
+    },
+    {
+      title: "Calculator",
+      type: "Independent Project",
+      year: "2023",
+      description: "Developed a React.js calculator with real-time evaluation and persistent state using localStorage.",
+      techStack: ["HTML", "CSS", "JavaScript", "React"],
+      githubUrl: "https://github.com/VeeraVasanti26/Calculator",
       category: "Web Development",
       status: "Completed"
     },
