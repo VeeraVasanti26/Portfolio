@@ -40,6 +40,7 @@ const Projects = () => {
       description: "Developed a React.js calculator with real-time evaluation and persistent state using localStorage.",
       techStack: ["HTML", "CSS", "JavaScript", "React"],
       githubUrl: "https://github.com/VeeraVasanti26/Calculator",
+      liveUrl: "https://calculator-phi-kohl.vercel.app/",
       category: "Web Development",
       status: "Completed"
     },
