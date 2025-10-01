@@ -32,7 +32,7 @@ const Header = () => {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Vasanti_Resume_Internships.pdf';
+    link.href = '/Vasanti_Resume-Internships.pdf';
     link.download = 'Vasanti_Goli_Resume.pdf';
     document.body.appendChild(link);
     link.click();
